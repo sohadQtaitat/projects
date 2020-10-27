@@ -1,0 +1,55 @@
+#projectsName {
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px;
+    left: 3%; 
+}
+.itemDiv{
+    width: 32%;
+    height: 350px;
+    text-align: center;
+    border: 5px double #6b214a;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+padding-bottom: 30px;  
+}
+#projectsName img{
+    opacity: 0.8;
+}
+#projectsName img:hover{
+    opacity: 1.0;
+
+}
+.itemDiv img{
+    width: 60%;
+    height: 70%;
+}
+.itemDiv:hover {
+    border: 1px solid #777;
+}
+
+#projectsName h5 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #6b214a;
+}
+button{
+    background-color: rgb(204,199,199);
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 8px;
+    border: 1px solid #D3C4B0;
+    width: 150px;
+}
+
+button:hover{
+    background-color: #6b214a;
+}
